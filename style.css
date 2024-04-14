@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container, .heading, .inputNum, .inputOp, .result, #calc{
+    /* border: 2px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.inputNum, .inputOp{
+    display: flex;
+    flex-direction: row;
+
+}
+.heading{
+    text-align: center;
+}
+
